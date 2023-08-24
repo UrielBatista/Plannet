@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "Plannet",
+    "name": "Planet",
     "slug": "Plannet",
+    "privacy": "public",
+    "description": "This app is to learn planets of solar system",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +27,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92a357e7-57b5-4d23-b256-7511a37832c3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/92a357e7-57b5-4d23-b256-7511a37832c3"
     }
   }
 }
